@@ -90,10 +90,10 @@ button:hover, button:focus {
     /* reduces the opacity of the button to 80% */
     opacity: 0.7;
     }
-.button__secondary {
-    background-color: var(--secondary-button_color);
-    color: var(--dark-grey);
-}
+.section-content{
+  width: 90%;
+  margin: 0 auto;
+}    
 .navigation-list__item--active {
     text-decoration: none;
 }
@@ -119,10 +119,15 @@ button:hover, button:focus {
 }
 .profile__portrait {
     float: left;
-    width: 50%;
+    width: 40%;
     height: auto;
     margin-right: 40px;
     border-radius: 50%;
+}
+.main-content{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
 }
 .page-header {
     display: flex;
@@ -140,9 +145,10 @@ button:hover, button:focus {
 .grid__item {
     display: inline-block;
     width: 33%;
+    padding: 20px;
 }
    /* end grid fallback */
-   
+
 @supports (display: grid) {
 .grid {
     display: grid;
