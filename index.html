@@ -3,16 +3,16 @@
     <head>
         <meta charset="utf-8">
         <title>Portfolio!</title>
-        <link rel = "shortcut icon" href = "./img/favicon.ico">
+        <link rel = "shortcut icon" href = "./img/logo.jpg">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">        
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Oswald:wght@600&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Oswald:wght@600&family=Philosopher:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.production.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <header class="page-header">            
              <!-- Add your logo here -->
-            <img src="./img/logo.jpg" class="page-header__item" alt="Personal logo of Marina Celestino">            
+            <img src="./img/logo.jpg" class="img" alt="Personal logo of Marina Celestino">            
             <nav class="main-navigation page-header__item">
                 <ul role="menubar" class="navigation-list">
                     <li role="presentation">
@@ -33,14 +33,18 @@
 
         <div class="profile">
             <!-- Add Marina Celestino Portrait here -->
-            <img src="./img/my_photo1.jpg" class="profile__portrait" alt="Marina Celestino Portrait">
-            <h1>Hello World!</h1>
-            <p>My name is Marina. I am a <span>web</span> developer student from Germany.</p><br>
-            <br>       
-            <a href="https://github.com/Mcelest19?tab=repositories">Check out some of my code</a> <br>         
+            <div class="profile_item"> <img src="./img/my_photo1.jpg" class="profile__portrait" alt="Marina Celestino Portrait">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hello, I'm Marina!</p>  
+
+                <p> I'm a beginner Full Stack Developer currently based in Germany, with an exciting journey ahead as I prepare to relocate to Brazil. After a thoughtful career transition, I embraced my passion for coding and made the decision to become a Full Stack Developer. To equip myself with the necessary skills, I recently completed a comprehensive programming course through Carrerfoundry, which has been an incredible and transformative experience.</p>
+                <p>Thank you for visiting my profile, and I look forward to connecting with you!</p>
+                <a class="button" href="https://github.com/Mcelest19?tab=repositories">Check out some of my code</a>
+                <a class="button" href="./files/CV_Celestino.pdf" target="_blank" download>Download my resume</a> <br>
+            </div>   
         </div>
 
-        <footer class="page-footer">
+        <footer class="page-footer py-3 text-center">
             <p>Find me on</p>
             <div class="social-media">
                 <!-- Github logo -->
@@ -48,6 +52,7 @@
                 <!-- LinkedIn logo -->
                 <a href="https://www.linkedin.com/in/marina-celestino-90319a166/" target="_blank"><img src="./img/linkedin_icon.svg" alt="LinkedIn"></a>
             </div>
+            <p>&copy; 2023 Marina Celestino. All rights reserved.</p>
         </footer>
         <script src="js/tota11y.min.js"></script>
     </body>
